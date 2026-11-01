@@ -5,6 +5,7 @@ tags: [resource]
 
 ## Learning
 - [KodeKloud](https://kodekloud.com) — my main learning platform
+- [KodeKloud Notes](https://notes.kodekloud.com) — official written notes for KodeKloud courses (great for review)
 - [KodeKloud on GitHub](https://github.com/kodekloudhub) — official course repos and lab files
 
 ## Official docs

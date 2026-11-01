@@ -7,6 +7,7 @@ My DevOps notes from KodeKloud courses.
 Every topic links to related topics — open **Graph view** (left sidebar) to see the network.
 
 ## Learning path (suggested order)
+0. [[What is DevOps]] — culture, CALMS, DORA metrics ✅
 1. [[Linux]] — the foundation of everything
 2. [[Networking Basics]] — IP, DNS, ports, HTTP
 3. [[Git]] — version control
