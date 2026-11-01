@@ -28,4 +28,4 @@ Her konu notu kendi alt başlıklarına ve ilgili notlara bağlanır — **Grafi
 - [[Kaynaklar]] — faydalı linkler
 
 ## Şu an üzerinde çalıştığım
-- [ ] _buraya o an izlediğin kursu yaz_
+- [ ][ _burayhttps://learn.kodekloud.com/learn/courses/devops-pre-requisite-course/module/10cc998e-4162-40ec-be18-d26a77d7a474/lesson/dbafa3a2-d069-4c84-8977-d405f017bd04a o an izlediğin kursu yaz_](https://learn.kodekloud.com/learn/courses/devops-pre-requisite-course/module/10cc998e-4162-40ec-be18-d26a77d7a474/lesson/dbafa3a2-d069-4c84-8977-d405f017bd04)
