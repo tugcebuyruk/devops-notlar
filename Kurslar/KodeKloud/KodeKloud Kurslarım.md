@@ -7,7 +7,7 @@ Her kurs için bu klasörde bir not aç (şablon: `Sablonlar/Kurs Notu`).
 
 | Kurs | Durum | Not |
 |---|---|---|
-| _örn. Linux Basics_ | ⏳ devam ediyor | [[Linux]] |
+| DevOps Pre-Requisite Course | ⏳ devam ediyor | [[DevOps Pre-Requisite Course]] |
 
 Durumlar: ⏳ devam ediyor · ✅ bitti · 📌 sırada
 
