@@ -1,5 +1,5 @@
 # devops-notlar
 
-KodeKloud eğitimleri boyunca tuttuğum DevOps notlarım — bir Obsidian kasası.
+My DevOps notes from KodeKloud courses — an Obsidian vault.
 
-Başlangıç noktası: [00-Ana-Sayfa.md](00-Ana-Sayfa.md)
+Start here: [00-Home.md](00-Home.md)
