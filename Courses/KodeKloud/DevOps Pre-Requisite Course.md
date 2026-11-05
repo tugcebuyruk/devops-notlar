@@ -36,6 +36,44 @@ development → Git repo → CI/CD pipeline → build → test → production
 
 > 🇹🇷 Kubernetes bir orkestra şefi gibi: hangi container'ın hangi sunucuda çalışacağına karar verir, biri çökerse yerine yenisini başlatır.
 
+**Infrastructure as Code (IaC):**
+- **Terraform** → *creates* the servers (provisioning).
+- **Ansible** → *configures* the servers: installs software, sets them up. Instructions are written in a `playbook.yaml`.
+
+Example from the video — an Ansible playbook that sets up a Kubernetes cluster:
+```yaml
+- name: apply common configuration to all nodes
+  hosts: all              # which servers → all of them
+  remote_user: root       # log in as root
+  roles:
+    - common              # what to do → the "common" setup
+
+- name: configure and deploy the controlplane
+  hosts: controlplane     # only the Kubernetes "manager" servers
+  roles:
+    - kubernetes controlplane
+
+- name: configure and deploy workers
+  hosts: workers          # only the servers that run containers
+  roles:
+    - kubernetes workers
+```
+Each block = **which servers** (`hosts`) + **what to do** (`roles`). Same file → every server set up the same way, no human errors.
+
+**Monitoring:**
+- **Prometheus** → collects metrics (CPU, memory, errors...) from all servers and stores them centrally.
+- **Grafana** → turns those metrics into dashboards and graphs.
+- → [[Monitoring]]
+
+**The DevOps loop (∞):**
+```
+idea → Plan → Code → Build → Test → Release → Deploy → Operate → Monitor
+                 ↑                                                │
+                 └──────────────── Feedback ──────────────────────┘
+```
+It never ends: what we learn from monitoring and user feedback becomes the next idea.
+All these tools together take us **from an idea to the user, fast and reliably**. → [[What is DevOps]]
+
 ### Linux basics → [[Linux]]
 - 
 
