@@ -95,6 +95,24 @@ All these tools together take us **from an idea to the user, fast and reliably**
 - Even though Ansible can manage Windows systems as target machines, a Linux system is required to be the **Ansible controller**.
   - *controller* (control node) = the machine where Ansible is installed and run from · *target* (managed node) = the machines it configures
 
+#### What this section covers
+1. **Linux CLI** — working in the terminal (Command Line Interface)
+2. **VI Editor** — editing files inside the terminal
+3. **Package Management** — installing / removing software
+4. **Service Management** — starting / stopping programs that run in the background
+
+#### Linux distributions — which one does the course use?
+- A **distribution (distro)** = Linux + a set of tools packaged together. They share the same core but differ in tools, e.g. the package manager.
+- Poll "Preferred Linux OS for Demos" (2,818 answers, multiple choice allowed): **CentOS 70%**, Ubuntu 54%, RHEL 38%, others very low.
+- → The course demos use **CentOS**. It's close to RHEL, so it also helps with Linux certifications (e.g. RHCSA → [[Certifications]]).
+
+| Family | Distros | Package manager |
+|---|---|---|
+| Red Hat family | RHEL, CentOS, Rocky Linux, AlmaLinux, Fedora | `yum` / `dnf` |
+| Debian family | Debian, Ubuntu | `apt` |
+
+> ⚠️ **Update:** CentOS Linux has reached end of life (CentOS 7 ended in June 2024). Today its free replacements are **Rocky Linux** and **AlmaLinux** — commands are the same, so everything in the course still applies.
+
 ### Vi editor
 - 
 
