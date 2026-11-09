@@ -75,7 +75,20 @@ It never ends: what we learn from monitoring and user feedback becomes the next 
 All these tools together take us **from an idea to the user, fast and reliably**. → [[What is DevOps]]
 
 ### Linux basics → [[Linux]]
-- 
+#### Why Linux?
+- Most DevOps tools **require Linux** — so learning Linux basics comes first.
+- Stack Overflow Developer Survey 2019:
+  - Linux was the **most used** platform (53.3%), ahead of Windows (50.7%).
+  - Linux was the **most loved** platform (83.1%), followed by Docker and Kubernetes.
+- DevOps tools were born on Linux; Windows support came later or is limited:
+
+| Tool | Linux vs Windows |
+|---|---|
+| [[Docker]] | Born on Linux in 2013; Docker for Windows came only in 2016 |
+| [[Ansible]] | Can *manage* Windows servers, but cannot *run* on Windows (only inside WSL) |
+| [[Kubernetes]] | The control plane (the "master" / manager part) runs only on Linux |
+
+> **WSL** (Windows Subsystem for Linux) = a way to run Linux inside Windows.
 
 ### Vi editor
 - 

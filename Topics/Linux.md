@@ -6,6 +6,11 @@ tags: [topic, linux]
 ## What is it?
 The open-source operating system running on most servers. Almost every DevOps tool runs on Linux.
 
+## Why it matters for DevOps
+- Docker, Ansible and the Kubernetes control plane are built for Linux.
+- Most loved platform among developers (Stack Overflow survey 2019).
+- Details: [[DevOps Pre-Requisite Course]] → Linux basics
+
 ## To learn
 - [ ] Filesystem layout (`/etc`, `/var`, `/home`...)
 - [ ] Users, groups, permissions
