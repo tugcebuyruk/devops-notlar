@@ -90,6 +90,11 @@ All these tools together take us **from an idea to the user, fast and reliably**
 
 > **WSL** (Windows Subsystem for Linux) = a way to run Linux inside Windows.
 
+**✍️ My notes (from my notebook):**
+- For example, containerization tools like Docker were only available on Linux-based systems for many years.
+- Even though Ansible can manage Windows systems as target machines, a Linux system is required to be the **Ansible controller**.
+  - *controller* (control node) = the machine where Ansible is installed and run from · *target* (managed node) = the machines it configures
+
 ### Vi editor
 - 
 
