@@ -113,6 +113,41 @@ All these tools together take us **from an idea to the user, fast and reliably**
 
 > ⚠️ **Update:** CentOS Linux has reached end of life (CentOS 7 ended in June 2024). Today its free replacements are **Rocky Linux** and **AlmaLinux** — commands are the same, so everything in the course still applies.
 
+#### Linux CLI — basic commands
+**Shell** = the program that reads the commands I type and runs them.
+
+| Shell | Notes |
+|---|---|
+| Bourne Shell (`sh`) | The original |
+| C Shell (`csh` / `tcsh`) | |
+| Z Shell (`zsh`) | Default on macOS |
+| **Bourne Again Shell (`bash`)** | Most common on Linux — used in the course |
+
+```bash
+echo $SHELL        # → /bin/bash
+```
+`echo` prints to the screen; `$SHELL` is a **variable** (the `$` means "the value of") that holds the name of my shell.
+
+**Basic, file and directory commands** → all in the cheat sheet: [[Linux Commands]]
+
+Example — multiple commands in one line with `;`:
+```bash
+cd new_directory; mkdir www; pwd
+# → /home/my_dir1/new_directory
+```
+
+Example — create a folder hierarchy:
+```bash
+# the long way: 3 commands
+mkdir /tmp/asia
+mkdir /tmp/asia/india
+mkdir /tmp/asia/india/bangalore
+# the short way: -p creates the parents too
+mkdir -p /tmp/asia/india/bangalore
+```
+
+> ⚠️ Slide typos: `touch` prints nothing (the "Hi" under it is a mistake), and "CTLR + D" = **Ctrl + D**.
+
 ### Vi editor
 - 
 
