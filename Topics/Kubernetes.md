@@ -16,7 +16,7 @@ An orchestration system that runs, scales and heals many containers across multi
 - [ ] Using `kubectl`
 
 ## Certifications
-CKAD (developer) · CKA (administrator) · CKS (security) — KodeKloud has prep courses for all three.
+CKAD (developer) · CKA (administrator) · CKS (security) — KodeKloud has prep courses for all three. Details: [[Certifications]]
 
 ## Related
 - [[Docker]] · [[YAML]] · [[Networking Basics]] · [[Monitoring]]

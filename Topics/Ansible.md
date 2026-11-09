@@ -13,6 +13,7 @@ An automation tool that configures many servers at once. Agentless — it works 
 - [ ] Roles
 
 ## Related
+- [[Certifications]] (RHCE – EX294)
 - [[Linux]] · [[YAML]] · [[Terraform]] (Terraform builds infrastructure, Ansible configures it)
 
 Back: [[00-Home]]

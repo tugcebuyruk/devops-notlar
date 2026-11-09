@@ -27,6 +27,7 @@ Every topic links to related topics — open **Graph view** (left sidebar) to se
 - `Labs/` — lab solutions and errors I hit → [[Labs]]
 - `Templates/` — templates for new notes
 - [[Resources]] — useful links
+- [[Certifications]] — Kubernetes and Ansible exams
 
 ## Currently working on
 - [ ] [[DevOps Pre-Requisite Course]] — [current lesson](https://learn.kodekloud.com/learn/courses/devops-pre-requisite-course/module/10cc998e-4162-40ec-be18-d26a77d7a474/lesson/dbafa3a2-d069-4c84-8977-d405f017bd04)
