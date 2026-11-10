@@ -75,6 +75,8 @@ It never ends: what we learn from monitoring and user feedback becomes the next 
 All these tools together take us **from an idea to the user, fast and reliably**. → [[What is DevOps]]
 
 ### Linux basics → [[Linux]]
+> 📌 **Deeper course:** the course links to [The Linux Basics Course](https://learn.kodekloud.com/learn/courses/the-linux-basics-course) before the lab — a full Linux course (10 modules, ~5 h video, with labs) for going further than this short section.
+
 #### Why Linux?
 - Most DevOps tools **require Linux** — so learning Linux basics comes first.
 - Stack Overflow Developer Survey 2019:
